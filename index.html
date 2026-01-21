@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mansa Technology Pvt. Ltd. - Complete IT Solutions, CCTV, Networking, and Computer Services in Kathmandu">
+    <title>Mansa Technology - IT Solutions & Services in Kathmandu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="https://customer-assets.emergentagent.com/job_mansa-electronics/artifacts/6mdvtiyo_newlogo.png" alt="Mansa Technology" class="logo-img">
+                    <div class="logo-text">
+                        <h1 class="logo-title">Mansa Technology</h1>
+                        <p class="logo-subtitle">IT Solutions & Services</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#about" class="nav-link">About Us</a>
+                    <button class="btn-primary" onclick="scrollToSection('contact')">Contact Us</button>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileMenu">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#products" class="mobile-nav-link">Products</a>
+                <a href="#about" class="mobile-nav-link">About Us</a>
+                <button class="btn-primary mobile-cta" onclick="scrollToSection('contact')">Contact Us</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="hero-badge">Trusted IT Solutions Provider</span>
+                    <h2 class="hero-title">"Empower your business with cutting-edge IT solutions from MANSA TECHNOLOGY PVT. LTD.,your trusted partner for corporate IT services since 2021."</h2>
+                    <p class="hero-description">From CCTV installations to computer services, we provide comprehensive IT solutions across Kathmandu valley. Quality products, expert services, and reliable support.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary btn-lg" onclick="scrollToSection('contact')">Get Started</button>
+                        <button class="btn-outline btn-lg" onclick="scrollToSection('products')">View Products</button>
+                    </div>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="feature-card">
+                        <div class="feature-icon bg-blue">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="feature-title">Professional Installation</h3>
+                            <p class="feature-desc">Expert CCTV, network, and electrical installations with guaranteed quality and reliability.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon bg-green">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="feature-title">24/7 Support & Maintenance</h3>
+                            <p class="feature-desc">Round-the-clock technical support and maintenance services for uninterrupted operations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon bg-orange">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16.5 9.4l-9-5.19M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="feature-title">Quality Products</h3>
+                            <p class="feature-desc">Authentic branded products with warranty, delivered nationwide across Nepal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-description">Comprehensive IT solutions tailored to meet your business and residential needs across Kathmandu valley.</p>
+            </div>
+            
+            <div class="services-grid" id="servicesGrid">
+                <!-- Services will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-description">High-quality IT products from trusted brands with warranty and nationwide delivery across Nepal.</p>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="category-filter" id="categoryFilter">
+                <!-- Categories will be loaded by JavaScript -->
+            </div>
+            
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+            
+            <!-- Delivery Info -->
+            <div class="delivery-info">
+                <div class="delivery-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16.5 9.4l-9-5.19M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="delivery-title">Nationwide Delivery Available</h3>
+                    <p class="delivery-desc">We deliver all our products across Nepal with secure packaging. Contact us for bulk orders and installation services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Mansa Technology</h2>
+                <p class="section-description">Your trusted partner for complete IT solutions in Kathmandu valley</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3 class="about-subtitle">Who We Are</h3>
+                    <p class="about-text">Mansa Technology Pvt. Ltd. is a leading IT solutions provider based at Jorpati Sundarijal Bus Stop, 
+                        Kathmandu. We specialize in CCTV installations, electrical services, computer and printer repairs, audio system setups, 
+                        and comprehensive networking solutions.</p>
+                    <p class="about-text">With years of experience in the industry, we have built a reputation for delivering high-quality services and 
+                        products to both residential and commercial clients. Our team of skilled technicians ensures professional installation and reliable
+                         after-sales support.</p>
+                    <p class="about-text">We stock a wide range of premium products including Cat6 cables, RJ45/RJ11 connectors, multi-plugs, branded NVRs
+                         from Hikvision, Tiandy and Dahua, computer peripherals, PoE switches, and professional CCTV cameras. All our products come with 
+                         warranty and authentic certifications.</p>
+                </div>
+                
+                <div class="why-choose">
+                    <h3 class="about-subtitle">Why Choose Us</h3>
+                    <div class="why-list">
+                        <div class="why-item">
+                            <div class="why-icon bg-blue">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="why-title">Certified Professionals</h4>
+                                <p class="why-desc">Our team consists of trained and certified technicians with extensive industry experience.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-item">
+                            <div class="why-icon bg-green">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="why-title">Customer-Centric Approach</h4>
+                                <p class="why-desc">We prioritize customer satisfaction with personalized solutions and responsive support.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-item">
+                            <div class="why-icon bg-orange">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="why-title">Wide Service Coverage</h4>
+                                <p class="why-desc">Services available throughout Kathmandu valley with nationwide product delivery.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="why-item">
+                            <div class="why-icon bg-purple">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="why-title">Timely Service</h4>
+                                <p class="why-desc">We value your time and ensure prompt service delivery and installation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-value">1000+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-value">1000+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <div class="stat-value">6+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <div class="stat-value">All Nepal</div>
+                    <div class="stat-label">Service Locations</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">Get in touch with us for any inquiries, quotations, or service requests. We're here to help!</p>
+            </div>
+            
+            <!-- Contact Info Cards -->
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-info-icon bg-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="contact-info-title">Our Location</h3>
+                    <p class="contact-info-text">Jorpati Sundarijal Bus Stop, Kathmandu, Nepal</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-info-icon bg-green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="contact-info-title">Phone Number</h3>
+                    <p class="contact-info-text">+977 9801037933</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-info-icon bg-orange">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="contact-info-title">Email Address</h3>
+                    <p class="contact-info-text">info@mansatech.com.np</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-info-icon bg-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="contact-info-title">Business Hours</h3>
+                    <p class="contact-info-text">Sun-Fri: 9AM-6PM, Sat: 9AM-2PM</p>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="contact-form-card">
+                <h3 class="form-title">Send us a Message</h3>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Manish Sapkota" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="mailmeatmanishg@gmail.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+977 9801037933" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="How can we help you?" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="6" placeholder="Tell us more about your requirements..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-lg btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="https://customer-assets.emergentagent.com/job_mansa-electronics/artifacts/6mdvtiyo_newlogo.png" alt="Mansa Technology" class="footer-logo-img">
+                        <div>
+                            <h3 class="footer-logo-title">Mansa Technology</h3>
+                            <p class="footer-logo-subtitle">Pvt. Ltd.</p>
+                        </div>
+                    </div>
+                    <p class="footer-text">Your trusted partner for complete IT solutions, CCTV installations, networking, and computer services across Kathmandu valley.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-heading">Contact Information</h3>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <p>Jorpati Sundarijal Bus Stop, Kathmandu, Nepal</p>
+                        </div>
+                        <div class="footer-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <p>+977 9801037933</p>
+                        </div>
+                        <div class="footer-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <p>info@mansatech.com.np</p>
+                        </div>
+                        <div class="footer-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <div>
+                                <p>Sunday - Friday: 9:00 AM - 6:00 PM</p>
+                                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-heading">Service Coverage</h3>
+                    <p class="footer-text">We provide services throughout Kathmandu valley and deliver products across Nepal.</p>
+                    <ul class="footer-list">
+                        <li>Installation & Maintenance</li>
+                        <li>On-site Support</li>
+                        <li>Nationwide Delivery</li>
+                        <li>24/7 Emergency Support</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2021 Mansa Technology Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
