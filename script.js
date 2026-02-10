@@ -57,16 +57,22 @@ const products = [
   },
   {
     id: 2,
-    name: 'RJ45 Connectors',
-    category: 'Networking',
-    price: 15,
+    name: '2 TB WD Harddisk',
+    category: 'CCTV',
+    price: 12000,
     unit: 'per piece',
     description: 'Premium quality RJ45 connectors for Cat5e/Cat6 cables, gold-plated contacts for better connectivity.',
     specifications: [
-      'Material: Gold-plated copper',
-      'Compatible: Cat5e, Cat6',
-      'Type: 8P8C modular',
-      'Package: 100 pieces'
+      'Brand: Western Digital
+      'Digital Storage Capacity: 2 TB',
+      'Color: purple',
+      'Installation Type: Internal Hard Drive',
+      'Compatible Devices: Camera',
+      'Hard Disk Description: Mechanical Hard Disk',
+      'Hard Disk Form Factor: 3.5 Inches ',
+      'Special Feature: Multitasking ',
+      'Connectivity Technology: SATA ',
+      'Hard Disk Interface: Serial ATA-600 ',
     ],
     inStock: true,
     image: 'https://tse3.mm.bing.net/th/id/OIP.74117ighbWAjEJgjSNM0MQHaHa?w=400'
@@ -238,6 +244,364 @@ const products = [
     inStock: true,
     image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
   }
+   {
+    id: 13,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 14,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 15,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 16,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 17,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 18,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 19,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 20,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 21,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 22,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 23,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 24,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 25,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 26,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 27,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 28,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+ {
+    id: 29,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+{
+    id: 30,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+{
+    id: 31,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+{
+    id: 32,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+{
+    id: 33,
+    name: 'Mechanical Keyboard',
+    category: 'Computer Accessories',
+    price: 4500,
+    unit: 'per unit',
+    description: 'Professional mechanical keyboard with blue switches and customizable RGB backlighting.',
+    specifications: [
+      'Switch Type: Blue mechanical',
+      'Layout: Full-size 104 keys',
+      'RGB: Per-key backlighting',
+      'Connection: USB Type-C',
+      'Build: Aluminum frame'
+    ],
+    inStock: true,
+    image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
+  }
+  
 ];
 
 // SVG Icons
