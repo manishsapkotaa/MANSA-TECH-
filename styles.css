@@ -68,7 +68,7 @@ button {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(243, 239, 239, 0.9);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--color-border);
 }
@@ -972,6 +972,55 @@ section {
     font-size: 0.875rem;
     color: #cbd5e1;
 }
+.whatsapp-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: #25D366;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 32px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 999;
+        }
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+    }
+.manish-ticker {
+    font-size: 15px;
+    padding-block: 8px;
+    border-block: 0px solid #ccc;
+    overflow: hidden;
+    user-select: none;
+    display: flex;
+    gap: var(--gap);
+
+    animation:scroll 40s linear infinite;
+    }
+.manish-ticker:hover ul{
+        animation-play-state: paused;
+    }
+
+    @keyframes scroll{
+        to{
+            transform: translateX(calc(-100%));
+        }
+    }
+    .manish-ticker ul{
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+    }
 
 /* Responsive Design */
 @media (min-width: 768px) {
