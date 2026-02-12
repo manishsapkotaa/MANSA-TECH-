@@ -35,7 +35,13 @@ const services = [
     title: 'IT Consultation',
     description: 'Expert IT consultation services to help businesses choose the right technology solutions and optimize their IT infrastructure.',
     icon: 'headphones'
-  }
+  },
+  {
+    id: 7,
+    title: 'AC Installation & Repair',
+    description: 'Professional audio system installation and configuration for offices, homes, and commercial spaces with optimal sound quality.',
+    icon: 'ceveronup'
+  },
 ];
 
 const products = [
@@ -57,22 +63,16 @@ const products = [
   },
   {
     id: 2,
-    name: '2 TB WD Harddisk',
-    category: 'CCTV',
-    price: 12000,
+    name: 'RJ45 Connectors',
+    category: 'Networking',
+    price: 15,
     unit: 'per piece',
     description: 'Premium quality RJ45 connectors for Cat5e/Cat6 cables, gold-plated contacts for better connectivity.',
     specifications: [
-      'Brand: Western Digital
-      'Digital Storage Capacity: 2 TB',
-      'Color: purple',
-      'Installation Type: Internal Hard Drive',
-      'Compatible Devices: Camera',
-      'Hard Disk Description: Mechanical Hard Disk',
-      'Hard Disk Form Factor: 3.5 Inches ',
-      'Special Feature: Multitasking ',
-      'Connectivity Technology: SATA ',
-      'Hard Disk Interface: Serial ATA-600 ',
+      'Material: Gold-plated copper',
+      'Compatible: Cat5e, Cat6',
+      'Type: 8P8C modular',
+      'Package: 100 pieces'
     ],
     inStock: true,
     image: 'https://tse3.mm.bing.net/th/id/OIP.74117ighbWAjEJgjSNM0MQHaHa?w=400'
@@ -243,9 +243,18 @@ const products = [
     ],
     inStock: true,
     image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?w=400'
-  
+  }
 ];
+var style = document.createElement('styles');
+var position ='right';
+style.innerHTML = `@keyframes my-animation {
+0%{${position}: -${document.querySelector('.manish-ticker').offsetWidth + 10}px;}
+100%{${position}: 100%;}
 
+}`;
+document.head.appendChild(style);
+
+// Create toast container
 // SVG Icons
 const icons = {
   camera: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>',
@@ -255,7 +264,7 @@ const icons = {
   network: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="16" y="16" width="6" height="6" rx="1"></rect><rect x="2" y="16" width="6" height="6" rx="1"></rect><rect x="9" y="2" width="6" height="6" rx="1"></rect><path d="M21 16V8a2 2 0 0 0-2-2h-3"></path><path d="M5 16V8a2 2 0 0 1 2-2h3"></path></svg>',
   headphones: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>',
   chevronDown: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>'
-};
+  };
 
 // Utility Functions
 function scrollToSection(sectionId) {
